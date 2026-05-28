@@ -1,0 +1,10 @@
+dependencies:
+  - product: "ClaimCenter"
+    version: "10.0.0"
+    requires: ["PolicyCenter", "BillingCenter"]
+  - product: "PolicyCenter"
+    version: "10.0.0"
+    requires: []
+  - product: "BillingCenter"
+    version: "10.0.0"
+    requires: []

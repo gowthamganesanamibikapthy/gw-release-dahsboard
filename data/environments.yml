@@ -1,0 +1,14 @@
+environments:
+  - name: dev
+    type: nonprod
+    branch: develop
+    product: PolicyCenter
+    deployment_target: onprem
+    ci_system: jenkins
+
+  - name: cloud-dev
+    type: nonprod
+    branch: develop
+    product: PolicyCenter
+    deployment_target: cloud
+    ci_system: teamcity
